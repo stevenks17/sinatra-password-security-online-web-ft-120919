@@ -52,7 +52,7 @@ describe "App" do
     end
   end
 
-  describe "POST '/login'" do 
+  #describe "POST '/login'" do 
  #   it 'returns a 200 status code' do 
      # user = User.create(:username => "student1", :password => "test")
       #visit '/login'
@@ -65,7 +65,7 @@ describe "App" do
     #end
  # end
 
-  describe "GET '/success'" do 
+  #describe "GET '/success'" do 
   #  it 'displays the username' do 
      ##visit '/login'
       #fill_in "username", :with => "student1"
