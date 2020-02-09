@@ -62,8 +62,8 @@ describe "App" do
       click_button "Log In"
       expect(page.current_path).to eq('/success')
       expect(page.status_code).to eq(200)
-    end
-  end
+    #end
+ # end
 
   describe "GET '/success'" do 
   #  it 'displays the username' do 
@@ -75,8 +75,8 @@ describe "App" do
       click_button "Log In"
 
       expect(page.body).to include(user.username)
-    end
-  end
+   # end
+ # end
 
   describe "GET '/failure'" do 
     it 'displays failure message' do 
