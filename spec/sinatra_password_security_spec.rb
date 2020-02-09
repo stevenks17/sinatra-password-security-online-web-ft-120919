@@ -67,8 +67,7 @@ describe "App" do
 
   describe "GET '/success'" do 
   #  it 'displays the username' do 
-      user = User.create(:username => "student1", :password => "test")
-      visit '/login'
+     ##visit '/login'
       fill_in "username", :with => "student1"
       fill_in "password", :with => "test"
       
